@@ -39,7 +39,7 @@ This will create a copy of the repo under your own GitHub account.
 
 Now bring your forked repo into your local machine.
 
-# Replace <your-username> with your GitHub username
+Replace <your-username> with your GitHub username
 git clone https://github.com/<your-username>/<repo-name>.git
 
 
@@ -295,4 +295,4 @@ Auth endpoints (common naming used here; if your code uses different routes, rep
 ---
 
 
-* Add a short Postman test script to automatically extract `token` and set it as an environment variable for the rest of the workflow. Which would you prefer?
+
