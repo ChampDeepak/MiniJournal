@@ -40,22 +40,31 @@ This will create a copy of the repo under your own GitHub account.
 Now bring your forked repo into your local machine.
 
 ```bash
-Replace <your-username> with your GitHub username
+// Replace <your-username> with your GitHub username
 git clone https://github.com/<your-username>/<repo-name>.git
 ```
 
 Example:
 
+```bash
 git clone https://github.com/deepak/my-daily-journal.git
+```
+
 
 🔹 Step 3: Move Into the Project Directory
 cd my-daily-journal
+
+```bash
+cd my-daily-journal
+```
 
 🔹 Step 4 (Optional but Recommended): Add Upstream Remote
 
 This lets you sync changes from the original repo later.
 
+```bash
 git remote add upstream https://github.com/<original-owner>/<repo-name>.git
+```
 
 
 Now you’re all set 🚀.
